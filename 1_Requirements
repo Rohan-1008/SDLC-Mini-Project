@@ -1,0 +1,69 @@
+# Requirements
+
+## Introduction
+A fully featured converter which involves functions like converting from one number system to another. The project includes Binary to Decimal/Octal/Hexa-Decimal and vice-versa.  
+The converter program is written in C language with proper testing cases and makefile.
+
+## Research
+The basic converters doesn't involve about the conversions of number systems. It is easy to convert  the values in the system to the respected number system which is needed rather than remembering and applying it in formula. Thus by studying all these facts, the necessary functions has been implemented to get the required results in a better way.
+
+## Cost and Features
+As far as the project is well built and all the requirements met the cost can be varied according to the market.
+### Features
+
+ - *Binary to Decimal* : The Binary to Decimal fuction title itself tells that it converts the value from Binary to Decimal.
+ - *Binary to Octal* : The Binary to Octal fuction title itself tells that it converts the value from Binary to Octal.
+ - *Binary to Hexa-Decimal* : The Binary to Hexa-Decimal fuction title itself tells that it converts the value from Binary to Hexa-Decimal.
+ - *Decimal to Binary* : The Decimal to Binary fuction title itself tells that it converts the value from Decimal to Binary.
+ - *Decimal to Octal* : The Decimal to Octal fuction title itself tells that it converts the value from Decimal to Octal.
+ - *Decimal to Hexa-Decimal* : The Decimal to Hexa-Decimal fuction title itself tells that it converts the value from Decimal to Hexa-Decimal.
+ - *Octal to Binary* : The Octal to Binary fuction title itself tells that it converts the value from Octal to Binary.
+ - *Octal to Decimal* :  The Octal to Decimal fuction title itself tells that it converts the value from Octal to Decimal. 
+ - *Octal to Hexa-Decimal* : The Octal to Hexa-Decimal fuction title itself tells that it converts the value from Octal to Hexa-Decimal.
+ - *Hexa-Decimal to Binary* : The Hexa-Decimal to Binary fuction title itself tells that it converts the value from Hexa-Decimal to Binary.
+ - *Hexa-Decimal to Decimal* : The Hexa-Decimal to Decimal fuction title itself tells that it converts the value from Hexa-Decimal to Decimal.
+ - *Hexa-Decimal to Octal* : The Hexa-Decimal to Octal fuction title itself tells that it converts the value from Hexa-Decimal to Octal.
+ 
+# Defining the system
+
+The system mainly involves four operation modes. They are Binary,Decimal,Octal and Hexa-Decimal . All the operation modes are subdivided into operations where user can choose the operation he wants and can perform accordingly. The result will be displayed at the end.
+
+# SWOT Analysis
+[Here](https://github.com/28-shravya/stepin_project/blob/main/1_Requirements/SWOT%20analysis.png) is a brief analysis on Strengths, Weaknesses, Opportunities and Threats.
+
+# 4 W's and 1 H
+### WHO 
+ The project can be used almost by all. All the students can use the program to find out the answer they need. At the end,  user satisfaction is the goal  of the project.
+### WHAT
+Covertions related to number systems can be calculated quickly. All the basics functionalities are included in the project. User can use the program efficiently and get the required results.
+
+### WHEN
+The project can be used at the time of convertions and get the results for number system conversions. The result will be obtained quickly.
+
+### WHERE
+In all the domains it can be used. As the project is portable and user-friendly, it can be easily implemented on the basic machinery industries. It should overcome all the drawbacks of the Old existing system and most important of all meet the user requirements.
+
+### HOW
+System design is a solution for “HOW TO” approach to the creation of a new system. It translates system requirements into ways by which they can be made operational. It is a translational from a user oriented document to a document oriented programmers. For that, it provides the understanding and procedural details necessary for the implementation. Here UML diagrams are used to supplement the working of the new system. The system thus made should be reliable, durable and above all should have least possible maintenance costs.
+
+# Detail Requirements
+
+## High Level Requirements
+
+|ID   |Description                          |Status              |
+|-----|-------------------------------------|--------------------|
+|HR_01|Operating System (Windows 10/Linux)  |Implemented         |
+|HR_02|C language                           |Implemented         |
+|HR_03|Pentium IV Processor                 |Implemented         |
+|HR_04|RAM(512MB)                           |Implemented         |
+|HR_05|Hard Disk(2GB)                       |Implemented         |
+
+## Low Level Requirements
+
+|ID   |Description                                                           |Status                       |
+|-----|----------------------------------------------------------------------|-----------------------------|
+|LR_01| Using funtions to convert from Binary to other number systems        |Implemented                  |
+|LR_02| Using funtions to convert from Decimal to other number systems       |Implemented                  |
+|LR_03| Using funtions to convert from Octal to other number systems         |Implemented                  |
+|LR_04| Using funtions to convert from Hexa-Decimal to other number systems  |Implemented                  |
+
