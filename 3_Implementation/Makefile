@@ -8,7 +8,7 @@ BUILD = build
 SRC =src/convertions_operations.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
+TEST_SRC = src/convertions_operations.c\
 test/test_convertions_operations.c\
 unity/unity.c\
 
