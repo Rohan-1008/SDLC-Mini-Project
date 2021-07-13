@@ -73,21 +73,21 @@ long int Oct_to_Hex(long int); //9:OCTAL TO HEXA-DECIMAL
 * @return Result of Hexa-Decimal value
 */
 
-void Hex_to_Bin(char []); //10:HEXA-DECIMAL TO BINARY
+char Hex_to_Bin(char []); //10:HEXA-DECIMAL TO BINARY
 /**
 *  takes input as Hexa-Decimal value
 *  converts to Binary
 * @return Result of Binary value
 */
 
-void Hex_to_Dec(char []); //11:HEXA-DECIMAL TO DECIMAL
+char Hex_to_Dec(char []); //11:HEXA-DECIMAL TO DECIMAL
 /**
 *  takes input as Hexa-Decimal value
 *  converts to Decimal
 * @return Result of Decimal value
 */
 
-void Hex_to_Oct(char []); //12:HEXA-DECIMAL TO OCTAL
+char Hex_to_Oct(char []); //12:HEXA-DECIMAL TO OCTAL
 /**
 *  takes input as Hexa-Decimal value
 *  converts to Octal
