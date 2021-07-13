@@ -62,7 +62,7 @@ test: $(BUILD)
 	gcc $(TEST_SRC) $(INC) -lm -o $(TEST_OUTPUT)
 	
 valgrind:
-	valgrind ./Test_$(PROJECT_NAME).$(EXEC)
+	valgrind test/Test_$(PROJECT_NAME).$(EXEC)
 
 cppcheck:
 	cppcheck --enable=all $(SRC) project_main.c
