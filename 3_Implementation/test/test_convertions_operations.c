@@ -8,6 +8,7 @@
 static fin_opt c1 = {0, 0, 0, 0};
 
 /* Prototypes for all the test functions */
+
 void test_Bin_to_Dec(void); 
 void test_Bin_to_Oct(void); 
 void test_Bin_to_Hex(void); 
@@ -91,9 +92,9 @@ void test_Dec_to_Oct(void)
 }
 void test_Dec_to_Hex(void)
 {
-  TEST_ASSERT_EQUAL(A, Dec_to_Hex(10));
+  TEST_ASSERT_EQUAL('A', Dec_to_Hex(10));
   
-  TEST_ASSERT_EQUAL(B, Dec_to_Hex(11));
+  TEST_ASSERT_EQUAL('B', Dec_to_Hex(11));
 
   TEST_ASSERT_EQUAL(8, Dec_to_Hex(8));
 }
@@ -133,15 +134,15 @@ void test_Hex_to_Dec(void)
 {
   TEST_ASSERT_EQUAL(16, Hex_to_Dec(10));
   
-  TEST_ASSERT_EQUAL(12, Hex_to_Dec(C));
+  TEST_ASSERT_EQUAL(12, Hex_to_Dec('C'));
 
-  TEST_ASSERT_EQUAL(15, Hex_to_Dec(F));
+  TEST_ASSERT_EQUAL(15, Hex_to_Dec('F'));
 }
 void test_Hex_to_Oct(void)
 {
   TEST_ASSERT_EQUAL(20, Hex_to_Oct(10));
   
-  TEST_ASSERT_EQUAL(13, Hex_to_Oct(A));
+  TEST_ASSERT_EQUAL(13, Hex_to_Oct('A'));
 
-  TEST_ASSERT_EQUAL(17, Hex_to_Oct(F));
+  TEST_ASSERT_EQUAL(17, Hex_to_Oct('F'));
 }
