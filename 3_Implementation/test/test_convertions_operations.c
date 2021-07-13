@@ -5,6 +5,7 @@
 #include <convertions_operations.h>
 #define PROJECT_NAME    "Converter"
 
+static fin_opt c1 = {0, 0, 0, 0};
 
 /* Prototypes for all the test functions */
 void test_Bin_to_Dec(void); 
