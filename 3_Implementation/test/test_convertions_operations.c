@@ -44,27 +44,27 @@ int main()
 }
 void test_Bin_to_Dec(void)
 {
-  TEST_ASSERT_EQUAL(2, Bin_to_Dec(0010));
+  TEST_ASSERT_EQUAL(4, Bin_to_Dec(100));
   
-  TEST_ASSERT_EQUAL(3, Bin_to_Dec(0011));
+  TEST_ASSERT_EQUAL(6, Bin_to_Dec(110));
 
-  TEST_ASSERT_EQUAL(0, Bin_to_Dec(0000));
+  TEST_ASSERT_EQUAL(1, Bin_to_Dec(001));
 }
 void test_Bin_to_Oct(void)
 {
-  TEST_ASSERT_EQUAL(2, Bin_to_Oct(0010));
+  TEST_ASSERT_EQUAL(4, Bin_to_Oct(100));
   
-  TEST_ASSERT_EQUAL(3, Bin_to_Oct(0011));
+  TEST_ASSERT_EQUAL(6, Bin_to_Oct(110));
 
-  TEST_ASSERT_EQUAL(0, Bin_to_Oct(0000));
+  TEST_ASSERT_EQUAL(1, Bin_to_Oct(001));
 }
 void test_Bin_to_Hex(void)
 {
-  TEST_ASSERT_EQUAL(2, Bin_to_Hex(0010));
+  TEST_ASSERT_EQUAL(4, Bin_to_Hex(100));
   
-  TEST_ASSERT_EQUAL(3, Bin_to_Hex(0011));
+  TEST_ASSERT_EQUAL(6, Bin_to_Hex(110));
 
-  TEST_ASSERT_EQUAL(0, Bin_to_Hex(0000));
+  TEST_ASSERT_EQUAL(1, Bin_to_Hex(001));
 }
 void test_Dec_to_Bin(void)
 {
