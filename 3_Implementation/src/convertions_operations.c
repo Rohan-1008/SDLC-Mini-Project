@@ -263,7 +263,7 @@ long int Oct_to_Hex(long int oct)
     }
 }
  
-void Hex_to_Bin(char hex[])
+char Hex_to_Bin(char hex[])
 {
     int i=0;
     printf("\nEquivalent Binary Number : ");
@@ -317,7 +317,7 @@ void Hex_to_Bin(char hex[])
  
 }
  
-void Hex_to_Dec(char hex[])
+char Hex_to_Dec(char hex[])
 {
     int i,num=0,power=0,decimal=0;
      
@@ -360,7 +360,7 @@ void Hex_to_Dec(char hex[])
  
 }
  
-void Hex_to_Oct(char hex[])
+char Hex_to_Oct(char hex[])
 {
     int i,len,num=0,power=0,decimal=0,rem[100];
      
