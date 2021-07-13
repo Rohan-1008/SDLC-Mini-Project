@@ -17,9 +17,6 @@ void test_Dec_to_Hex(void);
 void test_Oct_to_Bin(void); 
 void test_Oct_to_Dec(void); 
 void test_Oct_to_Hex(void); 
-void test_Hex_to_Bin(void); 
-void test_Hex_to_Dec(void); 
-void test_Hex_to_Oct(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -42,10 +39,6 @@ int main()
   RUN_TEST(test_Oct_to_Bin);
   RUN_TEST(test_Oct_to_Dec);
   RUN_TEST(test_Oct_to_Hex);
-  RUN_TEST(test_Hex_to_Bin);
-  RUN_TEST(test_Hex_to_Dec);
-  RUN_TEST(test_Hex_to_Oct);
-
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
@@ -120,28 +113,4 @@ void test_Oct_to_Hex(void)
   TEST_ASSERT_EQUAL(9, Oct_to_Hex(11));
 
   TEST_ASSERT_EQUAL(10, Oct_to_Hex(20));
-}
-void test_Hex_to_Bin(void)
-{
-  TEST_ASSERT_EQUAL(10, Hex_to_Bin('2'));
-  
-  TEST_ASSERT_EQUAL(11, Hex_to_Bin(3));
-
-  TEST_ASSERT_EQUAL(00, Hex_to_Bin(0));
-}
-void test_Hex_to_Dec(void)
-{
-  TEST_ASSERT_EQUAL(16, Hex_to_Dec(10));
-  
-  TEST_ASSERT_EQUAL(12, Hex_to_Dec('C'));
-
-  TEST_ASSERT_EQUAL(15, Hex_to_Dec('F'));
-}
-void test_Hex_to_Oct(void)
-{
-  TEST_ASSERT_EQUAL(20, Hex_to_Oct(10));
-  
-  TEST_ASSERT_EQUAL(13, Hex_to_Oct('A'));
-
-  TEST_ASSERT_EQUAL(17, Hex_to_Oct('F'));
 }
