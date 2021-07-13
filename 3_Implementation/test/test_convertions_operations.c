@@ -123,7 +123,7 @@ void test_Oct_to_Hex(void)
 }
 void test_Hex_to_Bin(void)
 {
-  TEST_ASSERT_EQUAL(10, Hex_to_Bin(2));
+  TEST_ASSERT_EQUAL(10, Hex_to_Bin('2'));
   
   TEST_ASSERT_EQUAL(11, Hex_to_Bin(3));
 
