@@ -1,7 +1,6 @@
 #include "convertions_operations.h"
 #include<stdio.h>
 #include<string.h>
-#include <conio.h>
 #include<math.h>
 
 int main()
