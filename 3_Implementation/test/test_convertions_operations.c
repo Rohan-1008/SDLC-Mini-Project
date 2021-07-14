@@ -8,7 +8,9 @@
 
 /* Prototypes for all the test functions */
 
-
+void test_Bin_to_Dec(void); 
+void test_Bin_to_Oct(void); 
+void test_Bin_to_Hex(void); 
 void test_Dec_to_Bin(void);  
 void test_Dec_to_Oct(void); 
 void test_Dec_to_Hex(void); 
@@ -28,7 +30,9 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
- 
+  RUN_TEST(test_Bin_to_Dec);
+  RUN_TEST(test_Bin_to_Oct);
+  RUN_TEST(test_Bin_to_Hex);
   RUN_TEST(test_Dec_to_Bin);
   RUN_TEST(test_Dec_to_Oct);
   RUN_TEST(test_Dec_to_Hex);
@@ -38,7 +42,30 @@ int main()
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
+void test_Bin_to_Dec(void)
+{
+  TEST_ASSERT_EQUAL(1, Bin_to_Dec(01));
+  
+  TEST_ASSERT_EQUAL(0, Bin_to_Dec(00));
 
+  TEST_ASSERT_EQUAL(1, Bin_to_Dec(01));
+}
+void test_Bin_to_Oct(void)
+{
+  TEST_ASSERT_EQUAL(1, Bin_to_Oct(01));
+  
+  TEST_ASSERT_EQUAL(0, Bin_to_Oct(00));
+
+  TEST_ASSERT_EQUAL(1, Bin_to_Oct(01));
+}
+void test_Bin_to_Hex(void)
+{
+  TEST_ASSERT_EQUAL(1, Bin_to_Hex(01));
+  
+  TEST_ASSERT_EQUAL(0, Bin_to_Hex(00));
+
+  TEST_ASSERT_EQUAL(1, Bin_to_Hex(01));
+}
 void test_Dec_to_Bin(void)
 {
   TEST_ASSERT_EQUAL(01, Dec_to_Bin(1));
