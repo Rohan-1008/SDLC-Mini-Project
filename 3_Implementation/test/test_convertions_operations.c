@@ -8,15 +8,15 @@
 
 /* Prototypes for all the test functions */
 
-long int test_Bin_to_Dec(void); 
-long int test_Bin_to_Oct(void); 
-long int test_Bin_to_Hex(void); 
-long int test_Dec_to_Bin(void);  
-long int test_Dec_to_Oct(void); 
-long int test_Dec_to_Hex(void); 
-long int test_Oct_to_Bin(void); 
-long int test_Oct_to_Dec(void); 
-long int test_Oct_to_Hex(void); 
+void test_Bin_to_Dec(void); 
+void test_Bin_to_Oct(void); 
+void test_Bin_to_Hex(void); 
+void test_Dec_to_Bin(void);  
+void test_Dec_to_Oct(void); 
+void test_Dec_to_Hex(void); 
+void test_Oct_to_Bin(void); 
+void test_Oct_to_Dec(void); 
+void test_Oct_to_Hex(void); 
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -42,7 +42,7 @@ int main()
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
-long int test_Bin_to_Dec(void)
+void test_Bin_to_Dec(void)
 {
   TEST_ASSERT_EQUAL(3, Bin_to_Dec(11));
   
@@ -50,7 +50,7 @@ long int test_Bin_to_Dec(void)
 
   TEST_ASSERT_EQUAL(1, Bin_to_Dec(1));
 }
-long int test_Bin_to_Oct(void)
+void test_Bin_to_Oct(void)
 {
   TEST_ASSERT_EQUAL(3, Bin_to_Oct(11));
   
@@ -58,7 +58,7 @@ long int test_Bin_to_Oct(void)
 
   TEST_ASSERT_EQUAL(1, Bin_to_Oct(1));
 }
-long int test_Bin_to_Hex(void)
+void test_Bin_to_Hex(void)
 {
   TEST_ASSERT_EQUAL(3, Bin_to_Hex(11));
   
@@ -66,7 +66,7 @@ long int test_Bin_to_Hex(void)
 
   TEST_ASSERT_EQUAL(1, Bin_to_Hex(1));
 }
-long int test_Dec_to_Bin(void)
+void test_Dec_to_Bin(void)
 {
   TEST_ASSERT_EQUAL(01, Dec_to_Bin(1));
   
@@ -74,7 +74,7 @@ long int test_Dec_to_Bin(void)
 
   TEST_ASSERT_EQUAL(00, Dec_to_Bin(0));
 }
-long int test_Dec_to_Oct(void)
+void test_Dec_to_Oct(void)
 {
   TEST_ASSERT_EQUAL(12, Dec_to_Oct(10));
   
@@ -82,7 +82,7 @@ long int test_Dec_to_Oct(void)
 
   TEST_ASSERT_EQUAL(10, Dec_to_Oct(8));
 }
-long int test_Dec_to_Hex(void)
+void test_Dec_to_Hex(void)
 {
   TEST_ASSERT_EQUAL('A', Dec_to_Hex(10));
   
@@ -90,7 +90,7 @@ long int test_Dec_to_Hex(void)
 
   TEST_ASSERT_EQUAL(8, Dec_to_Hex(8));
 }
-long int test_Oct_to_Bin(void)
+void test_Oct_to_Bin(void)
 {
   TEST_ASSERT_EQUAL(10, Oct_to_Bin(2));
   
@@ -98,7 +98,7 @@ long int test_Oct_to_Bin(void)
 
   TEST_ASSERT_EQUAL(00, Oct_to_Bin(0));
 }
-long int test_Oct_to_Dec(void)
+void test_Oct_to_Dec(void)
 {
   TEST_ASSERT_EQUAL(8, Oct_to_Dec(10));
   
@@ -106,7 +106,7 @@ long int test_Oct_to_Dec(void)
 
   TEST_ASSERT_EQUAL(16, Oct_to_Dec(20));
 }
-long int test_Oct_to_Hex(void)
+void test_Oct_to_Hex(void)
 {
   TEST_ASSERT_EQUAL(8, Oct_to_Hex(10));
   
