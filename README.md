@@ -6,4 +6,4 @@
    
 Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
-[![C/C++ CI - Build Status](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/c-cpp.yml)
+[![C/C++ CI - Build Status](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Rohan-1008/SDLC-Mini-Project/actions/workflows/cppcheck.yml)
