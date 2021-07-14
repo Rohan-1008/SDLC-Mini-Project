@@ -8,9 +8,7 @@
 
 /* Prototypes for all the test functions */
 
-void test_Bin_to_Dec(void); 
-void test_Bin_to_Oct(void); 
-void test_Bin_to_Hex(void); 
+
 void test_Dec_to_Bin(void);  
 void test_Dec_to_Oct(void); 
 void test_Dec_to_Hex(void); 
@@ -30,9 +28,7 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_Bin_to_Dec);
-  RUN_TEST(test_Bin_to_Oct);
-  RUN_TEST(test_Bin_to_Hex);
+ 
   RUN_TEST(test_Dec_to_Bin);
   RUN_TEST(test_Dec_to_Oct);
   RUN_TEST(test_Dec_to_Hex);
